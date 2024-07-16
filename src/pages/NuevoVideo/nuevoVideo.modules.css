@@ -1,0 +1,6 @@
+.formulario{
+    display: flex;
+    width: 1172px;
+    height: 867px;
+    gap: 60px;
+}

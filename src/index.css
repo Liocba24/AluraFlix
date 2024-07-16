@@ -1,0 +1,21 @@
+:root{
+  --font: "Roboto", sans-serif;
+  --font2: "Source Sans 3", sans-serif;
+  --azul: #2271D1;
+  --blanco: #FFFFFF;
+  --grey: #262626;
+  --gris-claro: #F5F5F5;
+  --celeste: #6BD1FF;
+  --verde: #00C86F;
+  --amarillo: #FFBA05;
+  --gris-oscuro: #191919;
+  --grey-light: #a5a5a5;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--gris-oscuro);
+}

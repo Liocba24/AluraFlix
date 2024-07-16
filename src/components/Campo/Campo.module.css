@@ -1,0 +1,24 @@
+.campo{
+    font-family: var(--font2);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--blanco);
+}
+
+.campo label{
+    font-family: var(--font2);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--blanco);
+    display: block;
+}
+
+.campo input, textarea{
+    width: 470px;
+    height: 62px;
+    background-color: var(--gris-oscuro);
+    border-radius: 10px;
+    color: var(--grey-light);
+}

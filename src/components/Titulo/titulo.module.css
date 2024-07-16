@@ -1,0 +1,23 @@
+.fondo {
+    /* Probar con z-index */
+    /*background-color: var(--grey);*/
+    background-color: 'rgba(52, 52, 52, 0.8)';
+}
+
+.texto {
+    margin-top: -5px;
+    display: flex;
+    width: 432px;
+    height: 70px;
+    /* font-size: 32px; */
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    line-height: 37.5px;
+    /* background-color: var(--celeste); */
+    border-radius: 15px;
+}
+
+.texto h1 {
+    color: var(--blanco);
+}
