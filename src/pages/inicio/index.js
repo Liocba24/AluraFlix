@@ -1,11 +1,20 @@
 import Banner from "components/Banner/Banner";
 import Footer from "components/Footer/footer";
 import Card from "components/Card";
-import videos from "../../data/db.json"
+//import videos from "../../data/db.json"
 import styles from "./index.module.css"
 import Titulo from "components/Titulo";
 
 function Inicio() {
+    const [videos, setVideos] = useState([]);
+
+    useEffect(() => {
+        fetch("https://my-json-server.typicode.com/Liocba24/alura-cinema-api/videos")
+        .then((response) => response.json())
+        .then((data) => {
+            setVideos(data);
+        });
+    },[]);
 
     return (
         <>
